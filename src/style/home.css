@@ -1,0 +1,41 @@
+.bloc {
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header .video {
+    position: absolute;
+    min-width: 100%;
+    max-height: 100%;
+    z-index: 100;
+    display: block;
+    margin: 0 auto 35px auto;
+}
+
+.bloc ::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: #000000e0;
+
+}
+
+
+.home {
+    display: grid;
+    grid-gap: 30px;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    margin: 20px;
+    padding: 50px;
+}
+
+.home img {
+    width: 260px;
+    height: 400px;
+    border-radius: 20px;
+}

@@ -1,0 +1,34 @@
+.header span {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.nav-link {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+}
+
+.nav-link li {
+    color: black;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 20px;
+}
+
+.nav-link li a {
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font-weight: bolder;
+}
